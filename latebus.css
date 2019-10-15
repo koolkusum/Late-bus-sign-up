@@ -1,0 +1,25 @@
+
+body{
+    background-image: url("https://pbs.twimg.com/profile_images/3690454342/49c938f865ce138c16e514060e949ded_400x400.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family:"Verdana", Verdana, sans-serif
+
+}
+ #R1 { 
+    background-color: rgb(0, 0, 0, 0.5);
+
+ }
+
+ #R2 { 
+    background-color: rgb(0, 0, 0, 0.5);
+
+ }
+
+ #R3 { 
+    background-color: rgb(0, 0, 0, 0.5);
+
+ }
