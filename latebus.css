@@ -7,10 +7,10 @@ body{
     background-size: cover;
 
     font-family:"Verdana", Verdana, sans-serif;
-    color:rgb(240, 240, 240);
+    
 
 }
  #R1 { 
     background-color: rgb(0, 0, 0, 0.5);
-    
+    font-color: white;
  }
