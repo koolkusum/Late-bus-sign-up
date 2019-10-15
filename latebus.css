@@ -42,3 +42,6 @@ body{
  #heading{
      background-color: white;
  }
+ol{
+    list-style:none
+}
