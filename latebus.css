@@ -1,0 +1,62 @@
+
+body{
+    background-image: url("https://pbs.twimg.com/profile_images/3690454342/49c938f865ce138c16e514060e949ded_400x400.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    text-align: center;
+
+    font-family:"Verdana", Verdana, sans-serif
+
+}
+ #R1 { 
+    background-color: rgb(0, 0, 0, 0.5);
+
+ }
+
+ #R2 { 
+    background-color: rgb(0, 0, 0, 0.5);
+
+ }
+
+ #R3 { 
+    background-color: rgb(0, 0, 0, 0.8);
+
+ }
+
+ #form{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(240, 240, 240);
+ }
+ #heading{
+     background-color: white;
+ }
+
+ #button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  #button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f0eae9;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
