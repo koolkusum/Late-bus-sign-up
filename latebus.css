@@ -28,7 +28,7 @@ body{
 
  #form{
     background-color: rgb(0, 0, 0, 0.5);
-    text-decoration-color: rgb(240, 240, 240);
+    color: rgb(240, 240, 240);
  }
  #heading{
      background-color: white;
