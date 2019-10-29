@@ -11,12 +11,14 @@ body{
     font-family:"Verdana", Verdana, sans-serif
 
 }
-.dropbtn {
+#dropbtn {
   background-color: #4CAF50;
   color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
+}
+
  #R1 { 
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
