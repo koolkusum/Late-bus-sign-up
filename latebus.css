@@ -1,4 +1,4 @@
- body{
+  body{
     background-image: url("https://i.ytimg.com/vi/bZUIQVJbMTo/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -9,9 +9,6 @@
 
     font-family:"Verdana", Verdana, sans-serif
 
-}
-#Rs {
-    display:flex;
 }
 
  #R1 {
@@ -125,12 +122,15 @@
     border-radius: 8px;
 }
 
+.R{
+position: absolute;
+}
 .container{
   display: flex;
   justify-content: space-between;
 }
-#R1L:hover #R1{
-  display:inherit;
+#R1L:active > .R{
+  visibility;
 }
 #R2L:hover #R2{
   display:inherit;
@@ -143,4 +143,3 @@
 #R1:hover #R1B {display: block;}
 #R2:hover #R2B {display: block;}
 #R3:hover #R3B {display: block;}
-                                  
