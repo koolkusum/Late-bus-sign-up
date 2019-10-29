@@ -76,11 +76,6 @@ body{
  #heading{
      background-color: white;
  }
-ol{
-    list-style:none;
-    padding: 0;
-    margin: 5;
-}
 
 #button1{
     background-color: lightskyblue;
