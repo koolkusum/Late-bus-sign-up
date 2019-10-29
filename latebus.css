@@ -135,4 +135,8 @@ visibility: hidden;
 #R1L:hover,#R2L:hover,#R3L:hover{
 	cursor: pointer;
 }
+
+a{
+color: white;
+} 
                                 
