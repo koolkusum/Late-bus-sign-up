@@ -121,3 +121,7 @@ body{
     font-size: 16px;
     border-radius: 8px;
 }
+
+#R1:hover #R1B {display: block;}
+#R2:hover #R2B {display: block;}
+#R3:hover #R3B {display: block;}
