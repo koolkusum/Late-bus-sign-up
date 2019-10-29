@@ -1,5 +1,6 @@
 
-body{
+                                                                                         
+    body{
     background-image: url("https://i.ytimg.com/vi/bZUIQVJbMTo/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -123,6 +124,12 @@ body{
     border-radius: 8px;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+  
 #R1:hover #R1B {display: block;}
 #R2:hover #R2B {display: block;}
 #R3:hover #R3B {display: block;}
+                                 
