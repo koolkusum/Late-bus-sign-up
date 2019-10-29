@@ -1,4 +1,4 @@
-  body{
+   body{
     background-image: url("https://i.ytimg.com/vi/bZUIQVJbMTo/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -10,9 +10,11 @@
     font-family:"Verdana", Verdana, sans-serif
 
 }
+#Rs {
+    display:flex;
+}
 
- #R1 {
-   	visibility: hidden;
+ #R1 { 
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -23,7 +25,6 @@
  }
      
  #R2 { 
-   	visibility: hidden;
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -34,7 +35,6 @@
  }
 
  #R3 { 
-   	visibility: hidden;
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -122,45 +122,11 @@
     border-radius: 8px;
 }
 
-.R{
-position: absolute;
-}
 .container{
   display: flex;
   justify-content: space-between;
 }
-#R1L:active > #R1{
-  visibility: visible;
-}
-#R1L:active ~ #R2L #R2{
-  visibility: hidden;
-}
-#R1L:active ~ #R3L #R3{
-  visibility: hidden;
-}
-#R2L:active > #R2{
-  visibility: visible;
-}
-#R2L:active ~ #R1L #R1{
-  visibility: hidden;
-}
-#R2L:active ~ #R3L #R3{
-  visibility: hidden;
-}
-#R3L:active > #R3{
-  visibility: visible;
-}
-#R3L:active ~ #R2L #R2{
-  visibility: hidden;
-}
-#R3L:active ~ #R1L #R1{
-  visibility: hidden;
-}
-#R1L{}
-#R2L{}
-#R3L{}
-    
-
+  
 #R1:hover #R1B {display: block;}
 #R2:hover #R2B {display: block;}
 #R3:hover #R3B {display: block;}
