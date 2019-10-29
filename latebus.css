@@ -1,6 +1,4 @@
-
-                                                                                         
-    body{
+ body{
     background-image: url("https://i.ytimg.com/vi/bZUIQVJbMTo/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -16,7 +14,8 @@
     display:flex;
 }
 
- #R1 { 
+ #R1 {
+   	display: none;
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -27,6 +26,7 @@
  }
      
  #R2 { 
+   	display: none;
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -37,6 +37,7 @@
  }
 
  #R3 { 
+   	display: none;
     background-color: rgb(0, 0, 0, 0.8);
     margin: 5;
     padding: 0;
@@ -128,8 +129,18 @@
   display: flex;
   justify-content: space-between;
 }
-  
+#R1L:hover #R1{
+  display:inherit;
+}
+#R2L:hover #R2{
+  display:inherit;
+}
+#R3L:hover #R3{
+  display:inherit;
+}
+    
+
 #R1:hover #R1B {display: block;}
 #R2:hover #R2B {display: block;}
 #R3:hover #R3B {display: block;}
-                                 
+                                  
